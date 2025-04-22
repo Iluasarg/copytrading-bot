@@ -87,7 +87,7 @@ npm start
 
 - Ensure your wallet has enough SOL to cover transaction fees.
 - Regularly check Telegram notifications to monitor trades.
-- For support or inquiries, [Telegram (https://t.me/iluasarg)].
+- For support or inquiries, [Telegram](https://t.me/iluasarg).
 
 
 
