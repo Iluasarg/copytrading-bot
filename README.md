@@ -1,4 +1,3 @@
-```
 # Solana Copytrading Bot
 
 This project is a copytrading bot on the Solana blockchain that monitors and automatically replicates trades using PumpPortal, Raydium, and PumpSwap services. The bot sends real-time trade notifications via Telegram.
@@ -57,50 +56,3 @@ To work with PumpPortal (e.g., via their Trading API), you need to create a wall
 ## Installation
 
 1. Clone the repository:
-```
-
-git clone https://github.com/Iluasarg/copytrading-bot.git cd copytrading-bot
-
-```
-
-2. Install dependencies:
-```
-
-npm install
-
-```
-
-3. Create a `.env` file based on the `env.example` template and fill in your details:
-```
-
-cp env.example .env
-
-```
-
-Open `.env` and add your API keys, wallet details, and Telegram information.
-
-4. Important: This bot requires the `config.ts` file to function, which is not included in the repository for security reasons. To purchase the `config.ts` file, contact me at [your-email@example.com]. The cost is [specify your price].
-
-## Usage
-
-1. After obtaining the `config.ts` file, place it in the `src` folder.
-
-2. Run the bot:
-```
-
-npm start
-
-```
-
-3. The bot will start monitoring the specified wallet and replicating trades, sending notifications to Telegram.
-
-## Notes
-
-- Ensure your wallet has enough SOL to cover transaction fees.
-- Regularly check Telegram notifications to monitor trades.
-- For support or inquiries, email [your-email@example.com].
-
-## License
-
-This project is distributed under the [specify your license, e.g., MIT] license. However, the `config.ts` file is required for full functionality and must be purchased separately.
-```
