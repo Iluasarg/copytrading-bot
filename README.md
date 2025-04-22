@@ -70,7 +70,6 @@ npm install
 
 Open `.env` and add your API keys, wallet details, and Telegram information.
 
-4. Important: This bot requires the `config.ts` file to function, which is not included in the repository for security reasons. To purchase the `config.ts` file, contact me at [your-email@example.com]. The cost is [specify your price].
 
 ## Usage
 
@@ -88,7 +87,7 @@ npm start
 
 - Ensure your wallet has enough SOL to cover transaction fees.
 - Regularly check Telegram notifications to monitor trades.
-- For support or inquiries, email [your-email@example.com].
+- For support or inquiries, Telegram [https://t.me/iluasarg].
 
 
 
