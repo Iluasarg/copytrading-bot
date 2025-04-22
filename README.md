@@ -55,12 +55,13 @@ To work with PumpPortal (e.g., via their Trading API), you need to create a wall
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/Iluasarg/copytrading-bot.git cd copytrading-bot
+'''git clone https://github.com/Iluasarg/copytrading-bot.git
+cd copytrading-bot'''
 
-2. Install dependencies:
-npm install
+4. Install dependencies:
+'''npm install'''
 
-3. Create a `.env` file based on the `env.example` template and fill in your details:
+5. Create a `.env` file based on the `env.example` template and fill in your details:
 
 
 Open `.env` and add your API keys, wallet details, and Telegram information.
@@ -72,7 +73,7 @@ Open `.env` and add your API keys, wallet details, and Telegram information.
 1. After obtaining the `config.ts` file, place it in the `src` folder.
 
 2. Run the bot:
-npm start
+'''npm start'''
 
 
 3. The bot will start monitoring the specified wallet and replicating trades, sending notifications to Telegram.
