@@ -1,85 +1,113 @@
+# 🚀 Solana Copytrading Bot
 
+This project is a **copytrading bot** on the **Solana blockchain** that monitors and automatically replicates trades using **PumpPortal**, **Raydium**, and **PumpSwap**. The bot sends real-time trade notifications via **Telegram**.
 
-## 🚀 Solana Copytrading Bot — Automatically Mirror Top Traders on Solana
+## ⚡ Key Features
 
-Want to earn by following smart money?  
-**Solana Copytrading Bot** is a powerful tool that tracks and mirrors trades of any wallet **in real time** across **three major platforms**: **PumpPortal**, **Raydium**, and **PumpSwap**. With ultra-low latency — just **1–2 blocks** — thanks to **Jito**, you get almost the same entry point as the original trader.
+- **Multi-Platform Copytrading**: Supports all major Solana trading services – PumpPortal, Raydium, and PumpSwap.
+- **Ultra-Fast Execution**: Front-runs within 1–2 blocks using Jito block engine.
+- **Wallet Monitoring**: Automatically copies trades from selected wallets.
+- **Telegram Notifications**: Instant alerts with full transaction details.
+- **Customizable Config**: Adjust settings via `.env`.
 
----
-
-### 🔥 Why This Bot Stands Out
-
-- **Three Platforms, Not Just One**  
-  Most copytrading bots work with only one service. Ours supports all the main ones where real copytrading happens. **More coverage = more profit opportunities**.
-
-- **Ultra-Fast Reaction Time**  
-  With Jito integration, the bot reacts faster than most network participants — **enters trades just 1–2 blocks** after the original wallet.
-
-- **Smart Trade Copying**  
-  The bot automatically mirrors both buys and sells of the target wallet, matching tokens and volumes with precision.
-
-- **Telegram Notifications**  
-  Every trade is instantly reported to your Telegram — token name, amount, transaction link, and more.
-
-- **Easy & Flexible Setup**  
-  Everything is configured through `.env`. No complicated configs. Just plug and play — get started in 5 minutes.
+> 💡 Unlike most bots tied to a single platform, this bot supports **multi-source copytrading** with minimal delay.
 
 ---
 
-### 🔧 Installation & Launch
+## 📦 What's Included
 
-1. Clone the repository:
+This repo includes:
+- Project structure and setup guide  
+- `.env.example` file  
+- Full documentation  
+- Integration instructions
+
+> 🔐 The core trading logic (`src/config.ts`) is **excluded** from the public version to prevent unauthorized use.
+
+---
+
+## 💰 Purchase & Access
+
+To get full access, including the `config.ts` logic and lifetime updates:
+
+### 💸 One-time payment — **4SOL**
+
+✅ Lifetime access  
+✅ All future updates  
+✅ Telegram support  
+✅ No subscriptions  
+
+📩 To buy, contact: [@iluasarg on Telegram](https://t.me/iluasarg)
+
+---
+
+## 🛠 Requirements
+
+- Node.js and npm installed
+- A funded Solana wallet
+- PumpPortal, Raydium, and Telegram credentials
+- Basic knowledge of `.env` configuration
+
+---
+
+## 🔑 PumpPortal Setup (API, Wallet, Keys)
+
+To use the PumpPortal API:
+
+1. Go to [https://pumpportal.fun](https://pumpportal.fun)
+2. Generate a new wallet and API key.
+3. Save your:
+   - **Public Key** (wallet address)
+   - **Private Key** (secret key)
+   - **API Key** (for trading access)
+4. Add them to your `.env`:
+   ```bash
+   PUMPPORTAL_PUBLIC_KEY=your_public_key
+   PUMPPORTAL_PRIVATE_KEY=your_private_key
+   PUMPPORTAL_API_KEY=your_api_key
+   ```
+
+> ⚠️ Keys are shown only once – don’t forget to save them.
+
+---
+
+## 🧪 Installation
 
 ```bash
-git clone https://github.com/Iluasarg/copytrading-bot.git
-cd copytrading-bot
-```
+git clone https://github.com/Iluasarg/solana-copytrading-bot.git
+cd solana-copytrading-bot
 
-2. Install dependencies:
-
-```bash
 npm install
 ```
 
-3. Create a `.env` file based on `env.example` and fill in your API keys, wallet details, and Telegram bot info.
+Then create a `.env` file based on `.env.example` and fill in your details.
 
-4. Run the bot:
+---
+
+## 🚀 Usage
+
+1. After purchasing, you will receive the `config.ts` file.
+2. Place it into the `src` folder.
+3. Start the bot:
 
 ```bash
 npm start
 ```
 
-The bot will begin monitoring the specified wallet and mirroring its trades. All actions will be sent to Telegram in real time.
+You’ll start seeing Telegram alerts for copied trades.
 
 ---
 
-### 🪪 How to Get PumpPortal Keys and Wallet
+## 🧠 Notes
 
-To use PumpPortal’s Trading API, you’ll need an API key and wallet credentials. Here’s how to get them:
-
-1. Go to [pumpportal.fun](https://pumpportal.fun)  
-2. Click **“Generate a Lightning Wallet & API Key”**  
-   This will generate:
-   - **Public Key** — your Solana wallet address  
-   - **Private Key** — the secret key (Base58 format)  
-   - **API Key** — to access the PumpPortal API  
-3. **Important:** Copy and save them **immediately**. If you refresh the page, they’re gone forever!  
-4. Add them to your `.env` file:
-
-```env
-PUMPPORTAL_PUBLIC_KEY=your_public_key
-PUMPPORTAL_PRIVATE_KEY=your_private_key
-PUMPPORTAL_API_KEY=your_api_key
-```
-
-5. Fund your wallet with some SOL to cover transaction fees and enable trading.
+- Make sure your wallet has enough SOL for fees.
+- Works with both private and public wallets.
+- Ideal for PnL-copying strategies, passive investing, or real-time trade mirroring.
 
 ---
 
-📲 Now you’re ready to copy top traders on Solana with just a few clicks.  
-This bot is perfect for arbitrageurs, DeFi traders, and anyone looking to **enter trades fast, precisely, and automatically**.
+## 🧑‍💻 Support
 
----
+Need help or want to talk before buying? Message me anytime:  
+📩 [@iluasarg](https://t.me/iluasarg)
 
-💬 Got questions or want to get the bot now?  
-🔹 [Message me on Telegram](https://t.me/iluasarg)
